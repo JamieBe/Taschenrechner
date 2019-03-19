@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.effect.SepiaTone?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="534.0" prefWidth="544.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fx1.FXMLDocumentController">
+    <children>
+        <Button fx:id="button0" layoutX="18.0" layoutY="449.0" onAction="#handleButtonAction" prefHeight="78.0" prefWidth="91.0" text="0">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button fx:id="button1" layoutX="19.0" layoutY="363.0" onAction="#handleButtonAction" prefHeight="78.0" prefWidth="91.0" text="1">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="button2" layoutX="117.0" layoutY="364.0" onAction="#handleButtonAction" prefHeight="78.0" prefWidth="91.0" text="2">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="button3" layoutX="215.0" layoutY="364.0" onAction="#handleButtonAction" prefHeight="78.0" prefWidth="91.0" text="3">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="plusButton" layoutX="332.0" layoutY="364.0" onAction="#handleButtonAction" prefHeight="78.0" prefWidth="91.0" text="+">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="minusButton" layoutX="430.0" layoutY="364.0" onAction="#handleButtonAction" prefHeight="78.0" prefWidth="91.0" text="-">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="button4" layoutX="18.0" layoutY="279.0" onAction="#handleButtonAction" prefHeight="78.0" prefWidth="91.0" text="4">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="button5" layoutX="116.0" layoutY="279.0" onAction="#handleButtonAction" prefHeight="78.0" prefWidth="91.0" text="5">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="button6" layoutX="214.0" layoutY="279.0" onAction="#handleButtonAction" prefHeight="78.0" prefWidth="91.0" text="6">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="button7" layoutX="18.0" layoutY="194.0" onAction="#handleButtonAction" prefHeight="78.0" prefWidth="91.0" text="7">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="button8" layoutX="116.0" layoutY="194.0" onAction="#handleButtonAction" prefHeight="78.0" prefWidth="91.0" text="8">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="button9" layoutX="214.0" layoutY="194.0" onAction="#handleButtonAction" prefHeight="78.0" prefWidth="91.0" text="9">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="malButton" layoutX="331.0" layoutY="279.0" onAction="#handleButtonAction" prefHeight="78.0" prefWidth="91.0" text="*">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="geteiltButton" layoutX="429.0" layoutY="279.0" onAction="#handleButtonAction" prefHeight="78.0" prefWidth="91.0" text="/">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="delButton" layoutX="331.0" layoutY="194.0" onAction="#handleButtonAction" prefHeight="78.0" prefWidth="91.0" text="DEL" />
+      <Button fx:id="acButton" layoutX="429.0" layoutY="194.0" onAction="#handleButtonAction" prefHeight="78.0" prefWidth="91.0" text="AC" />
+      <Button fx:id="gleichButoon" layoutX="430.0" layoutY="449.0" onAction="#handleButtonAction" prefHeight="78.0" prefWidth="91.0" text="=">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Button>
+      <Label fx:id="label1" alignment="CENTER_RIGHT" layoutX="50.0" layoutY="53.0" prefHeight="78.0" prefWidth="421.0" text="0">
+         <font>
+            <Font size="48.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Label>
+      <Button fx:id="Punktbutton" layoutX="115.0" layoutY="450.0" onAction="#handleButtonAction" prefHeight="78.0" prefWidth="91.0" text=".">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Button>
+    </children>
+   <effect>
+      <SepiaTone />
+   </effect>
+</AnchorPane>
